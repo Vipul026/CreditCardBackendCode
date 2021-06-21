@@ -1,0 +1,174 @@
+2021-06-11 08:41:24,778 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-10 housekeeper] HikariPool-10 - Thread starvation or clock leap detected (housekeeper delta=10h49m46s830ms609µs500ns).
+2021-06-11 08:42:21,442 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getAllCustomers() method
+2021-06-11 08:42:21,442 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getAllCustomer() method of CustomerService
+2021-06-11 08:42:25,361 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getCustomer() method
+2021-06-11 08:42:25,362 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getCustomer() method of CustomerService
+2021-06-11 08:42:25,417 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-2] Customer with ID: 0 Not Available!
+2021-06-11 08:42:25,418 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-2] Resolved [Customer with ID: 0 Not Available!]
+2021-06-11 08:42:30,626 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getCustomer() method
+2021-06-11 08:42:30,627 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getCustomer() method of CustomerService
+2021-06-11 08:42:52,871 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-5] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-11 08:42:52,871 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-5] Called findByCustomerId() method of CreditCardService
+2021-06-11 08:42:52,875 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-5] No Credit cards found
+2021-06-11 08:42:52,876 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-5] Resolved [No Credit cards found]
+2021-06-11 08:42:55,942 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getCustomer() method
+2021-06-11 08:42:55,942 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getCustomer() method of CustomerService
+2021-06-11 08:43:35,191 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-8] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-11 08:43:35,191 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-8] Called findByCustomerId() method of CreditCardService
+2021-06-11 08:43:35,196 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-8] No Credit cards found
+2021-06-11 08:43:35,196 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-8] Resolved [No Credit cards found]
+2021-06-11 08:43:40,075 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getCustomer() method
+2021-06-11 08:43:40,075 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getCustomer() method of CustomerService
+2021-06-11 08:45:49,631 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-2] Called GET mapping getAllStatements() method
+2021-06-11 08:45:49,631 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-2] Called getAlltatements() method of StatementService
+2021-06-11 08:45:57,963 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getAllCustomers() method
+2021-06-11 08:45:57,963 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getAllCustomer() method of CustomerService
+2021-06-11 08:50:46,076 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getAllCustomers() method
+2021-06-11 08:50:46,076 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getAllCustomer() method of CustomerService
+2021-06-11 08:51:16,615 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called DELETE mapping removeCustomer() method
+2021-06-11 08:51:16,615 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getCustomer() method of CustomerService
+2021-06-11 08:51:16,618 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called removeCustomer() method of CustomerService
+2021-06-11 08:51:17,021 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called GET mapping getAllCustomers() method
+2021-06-11 08:51:17,021 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getAllCustomer() method of CustomerService
+2021-06-11 08:51:19,064 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called DELETE mapping removeCustomer() method
+2021-06-11 08:51:19,064 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getCustomer() method of CustomerService
+2021-06-11 08:51:19,066 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called removeCustomer() method of CustomerService
+2021-06-11 08:51:19,264 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getAllCustomers() method
+2021-06-11 08:51:19,264 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getAllCustomer() method of CustomerService
+2021-06-11 08:51:20,739 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called DELETE mapping removeCustomer() method
+2021-06-11 08:51:20,739 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getCustomer() method of CustomerService
+2021-06-11 08:51:20,741 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called removeCustomer() method of CustomerService
+2021-06-11 08:51:20,896 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called GET mapping getAllCustomers() method
+2021-06-11 08:51:20,896 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called getAllCustomer() method of CustomerService
+2021-06-11 08:52:10,182 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called POST mapping addCustomer() method
+2021-06-11 08:52:10,187 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called addCustomer() method of CustomerService
+2021-06-11 08:52:48,979 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called POST mapping addCustomer() method
+2021-06-11 08:52:48,981 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called addCustomer() method of CustomerService
+2021-06-11 08:53:43,856 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called POST mapping addCustomer() method
+2021-06-11 08:53:43,860 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called addCustomer() method of CustomerService
+2021-06-11 08:53:47,711 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getAllCustomers() method
+2021-06-11 08:53:47,711 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getAllCustomer() method of CustomerService
+2021-06-11 08:54:37,375 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called GET mapping getCustomer() method
+2021-06-11 08:54:37,375 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getCustomer() method of CustomerService
+2021-06-11 08:54:52,259 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called PUT mapping updateCustomer() method
+2021-06-11 08:54:52,259 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called updateCustomer() method of CustomerService
+2021-06-11 08:54:56,539 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getAllCustomers() method
+2021-06-11 08:54:56,539 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getAllCustomer() method of CustomerService
+2021-06-11 08:55:14,483 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called GET mapping getCustomer() method
+2021-06-11 08:55:14,483 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called getCustomer() method of CustomerService
+2021-06-11 08:55:14,485 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-4] Customer with ID: 0 Not Available!
+2021-06-11 08:55:14,486 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-4] Resolved [Customer with ID: 0 Not Available!]
+2021-06-11 08:55:39,239 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getCustomer() method
+2021-06-11 08:55:39,239 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getCustomer() method of CustomerService
+2021-06-11 08:55:39,241 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-5] Customer with ID: 0 Not Available!
+2021-06-11 08:55:39,241 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-5] Resolved [Customer with ID: 0 Not Available!]
+2021-06-11 08:55:51,301 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getCustomer() method
+2021-06-11 08:55:51,301 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getCustomer() method of CustomerService
+2021-06-11 08:55:57,885 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getCustomer() method
+2021-06-11 08:55:57,885 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getCustomer() method of CustomerService
+2021-06-11 08:56:09,867 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called GET mapping getAllCustomers() method
+2021-06-11 08:56:09,932 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getAllCustomer() method of CustomerService
+2021-06-11 08:56:26,574 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called DELETE mapping removeCustomer() method
+2021-06-11 08:56:26,574 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getCustomer() method of CustomerService
+2021-06-11 08:56:26,576 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called removeCustomer() method of CustomerService
+2021-06-11 08:56:27,156 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getAllCustomers() method
+2021-06-11 08:56:27,156 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getAllCustomer() method of CustomerService
+2021-06-11 08:57:16,466 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called POST mapping addCustomer() method
+2021-06-11 08:57:16,468 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called addCustomer() method of CustomerService
+2021-06-11 08:57:21,520 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getAllCustomers() method
+2021-06-11 08:57:21,520 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getAllCustomer() method of CustomerService
+2021-06-11 08:58:54,099 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-7] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-11 08:58:54,099 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-7] Called findByCustomerId() method of CreditCardService
+2021-06-11 08:58:54,102 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-7] No Credit cards found
+2021-06-11 08:58:54,107 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-7] Resolved [No Credit cards found]
+2021-06-11 08:58:58,631 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getCustomer() method
+2021-06-11 08:58:58,631 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getCustomer() method of CustomerService
+2021-06-11 09:35:41,469 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getCustomer() method
+2021-06-11 09:35:41,469 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getCustomer() method of CustomerService
+2021-06-11 09:35:41,477 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-3] Customer with ID: 0 Not Available!
+2021-06-11 09:35:41,478 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-3] Resolved [Customer with ID: 0 Not Available!]
+2021-06-11 09:35:50,048 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called GET mapping getCustomer() method
+2021-06-11 09:35:50,048 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called getCustomer() method of CustomerService
+2021-06-11 09:39:22,689 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-7] Called GET mapping getAllStatements() method
+2021-06-11 09:39:22,689 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-7] Called getAlltatements() method of StatementService
+2021-06-11 09:39:25,024 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getAllCustomers() method
+2021-06-11 09:39:25,025 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getAllCustomer() method of CustomerService
+2021-06-11 09:39:26,966 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called GET mapping getCustomer() method
+2021-06-11 09:39:26,966 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getCustomer() method of CustomerService
+2021-06-11 09:39:50,513 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getCustomer() method
+2021-06-11 09:39:50,513 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getCustomer() method of CustomerService
+2021-06-11 09:40:03,327 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called GET mapping getCustomer() method
+2021-06-11 09:40:03,327 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getCustomer() method of CustomerService
+2021-06-11 09:43:19,923 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getAllCustomers() method
+2021-06-11 09:43:19,923 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getAllCustomer() method of CustomerService
+2021-06-11 09:44:18,680 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called POST mapping addCustomer() method
+2021-06-11 09:44:18,693 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called addCustomer() method of CustomerService
+2021-06-11 09:44:24,605 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getAllCustomers() method
+2021-06-11 09:44:24,606 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getAllCustomer() method of CustomerService
+2021-06-11 09:44:28,887 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getCustomer() method
+2021-06-11 09:44:28,887 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getCustomer() method of CustomerService
+2021-06-11 09:44:52,091 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getCustomer() method
+2021-06-11 09:44:52,091 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getCustomer() method of CustomerService
+2021-06-11 09:45:26,136 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called GET mapping getCustomer() method
+2021-06-11 09:45:26,136 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getCustomer() method of CustomerService
+2021-06-11 09:45:45,778 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getCustomer() method
+2021-06-11 09:45:45,778 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getCustomer() method of CustomerService
+2021-06-11 09:45:53,615 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called PUT mapping updateCustomer() method
+2021-06-11 09:45:53,616 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called updateCustomer() method of CustomerService
+2021-06-11 09:46:12,564 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getCustomer() method
+2021-06-11 09:46:12,564 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getCustomer() method of CustomerService
+2021-06-11 10:22:43,712 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-8] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-11 10:22:43,731 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-8] Called findByCustomerId() method of CreditCardService
+2021-06-11 10:22:43,767 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-8] No Credit cards found
+2021-06-11 10:22:43,832 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-8] Resolved [No Credit cards found]
+2021-06-11 11:12:29,531 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called GET mapping getAllCustomers() method
+2021-06-11 11:12:29,531 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called getAllCustomer() method of CustomerService
+2021-06-11 11:12:37,907 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getCustomer() method
+2021-06-11 11:12:37,908 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getCustomer() method of CustomerService
+2021-06-11 11:12:43,606 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getAllCustomers() method
+2021-06-11 11:12:43,606 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getAllCustomer() method of CustomerService
+2021-06-11 11:12:49,094 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called DELETE mapping removeCustomer() method
+2021-06-11 11:12:49,094 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getCustomer() method of CustomerService
+2021-06-11 11:12:49,097 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called removeCustomer() method of CustomerService
+2021-06-11 11:12:49,829 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getAllCustomers() method
+2021-06-11 11:12:49,830 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getAllCustomer() method of CustomerService
+2021-06-11 11:29:00,154 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getAllCustomers() method
+2021-06-11 11:29:00,154 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getAllCustomer() method of CustomerService
+2021-06-11 11:29:06,107 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getCustomer() method
+2021-06-11 11:29:06,107 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getCustomer() method of CustomerService
+2021-06-11 11:29:13,320 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called PUT mapping updateCustomer() method
+2021-06-11 11:29:13,320 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called updateCustomer() method of CustomerService
+2021-06-11 11:29:18,330 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getAllCustomers() method
+2021-06-11 11:29:18,330 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getAllCustomer() method of CustomerService
+2021-06-11 11:29:48,682 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getAllCustomers() method
+2021-06-11 11:29:48,682 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getAllCustomer() method of CustomerService
+2021-06-11 13:16:26,196 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getAllCustomers() method
+2021-06-11 13:16:26,235 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getAllCustomer() method of CustomerService
+2021-06-11 13:17:12,241 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getCustomer() method
+2021-06-11 13:17:12,241 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getCustomer() method of CustomerService
+2021-06-11 13:18:14,307 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called POST mapping addCustomer() method
+2021-06-11 13:18:14,311 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called addCustomer() method of CustomerService
+2021-06-11 13:18:18,272 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-7] Called GET mapping getAllCustomers() method
+2021-06-11 13:18:18,272 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-7] Called getAllCustomer() method of CustomerService
+2021-06-11 13:18:27,061 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-6] Called GET mapping getAllCustomers() method
+2021-06-11 13:18:27,061 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-6] Called getAllCustomer() method of CustomerService
+2021-06-11 13:18:38,205 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-8] Called GET mapping getCustomer() method
+2021-06-11 13:18:38,205 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-8] Called getCustomer() method of CustomerService
+2021-06-11 13:18:55,786 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called PUT mapping updateCustomer() method
+2021-06-11 13:18:55,786 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called updateCustomer() method of CustomerService
+2021-06-11 13:19:00,003 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getAllCustomers() method
+2021-06-11 13:19:00,003 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getAllCustomer() method of CustomerService
+2021-06-11 13:21:03,571 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-4] Called DELETE mapping removeCustomer() method
+2021-06-11 13:21:03,571 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called getCustomer() method of CustomerService
+2021-06-11 13:21:03,625 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-4] Called removeCustomer() method of CustomerService
+2021-06-11 13:21:04,376 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getAllCustomers() method
+2021-06-11 13:21:04,376 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getAllCustomer() method of CustomerService
+2021-06-11 13:21:29,411 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-6] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-11 13:21:29,411 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-6] Called findByCustomerId() method of CreditCardService
+2021-06-11 13:21:29,415 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-6] No Credit cards found
+2021-06-11 13:21:29,419 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-6] Resolved [No Credit cards found]
+2021-06-11 15:43:50,507 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(1273)-127.0.0.1] Application shutdown requested.
+2021-06-11 15:43:50,619 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(1273)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-11 15:43:50,624 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(1273)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-11 15:43:50,626 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(1273)-127.0.0.1] HikariPool-10 - Shutdown initiated...
+2021-06-11 15:43:50,637 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(1273)-127.0.0.1] HikariPool-10 - Shutdown completed.

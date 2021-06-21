@@ -1,0 +1,172 @@
+2021-06-21 14:20:59,148 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] Starting CreditcardBillPaymentApplication using Java 15.0.2 on DESKTOP-TM0EUEB with PID 1400 (E:\Final sprint project\CreditcardBillPayment\bin\main started by HP in E:\Final sprint project\CreditcardBillPayment)
+2021-06-21 14:20:59,182 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-21 14:21:00,076 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-21 14:21:00,077 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-21 14:21:08,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-21 14:21:08,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 353 ms. Found 8 JPA repository interfaces.
+2021-06-21 14:21:12,414 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2021-06-21 14:21:12,482 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-21 14:21:12,483 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-21 14:21:13,017 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-21 14:21:13,018 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 12931 ms
+2021-06-21 14:21:14,076 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-21 14:21:14,657 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-06-21 14:21:16,114 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-21 14:21:16,757 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-06-21 14:21:18,899 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-06-21 14:21:19,247 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-21 14:21:27,860 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-21 14:21:27,932 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 14:21:28,126 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-21 14:21:30,767 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-21 14:21:32,398 INFO springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-06-21 14:21:33,026 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 14:21:34,603 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2021-06-21 14:21:34,605 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Documentation plugins bootstrapped
+2021-06-21 14:21:34,611 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-06-21 14:21:34,788 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-06-21 14:21:35,402 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUsingPOST_1
+2021-06-21 14:21:35,417 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findByIdUsingGET_1
+2021-06-21 14:21:35,439 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findAllUsingGET_1
+2021-06-21 14:21:35,594 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updatePaymentUsingPUT_1
+2021-06-21 14:21:35,636 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] Started CreditcardBillPaymentApplication in 39.198 seconds (JVM running for 43.332)
+2021-06-21 14:28:09,121 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-21 14:28:09,121 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-21 14:28:09,125 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Completed initialization in 4 ms
+2021-06-21 14:32:05,953 INFO com.cg.creditcardpayment.controller.TransactionController [http-nio-9090-exec-4] Called GET mapping getAllTransactions() method
+2021-06-21 14:32:05,953 INFO com.cg.creditcardpayment.services.TransactionServices [http-nio-9090-exec-4] Called getAllTransactions() method of TransactionServices
+2021-06-21 14:32:09,455 INFO com.cg.creditcardpayment.controller.TransactionController [http-nio-9090-exec-5] Called GET mapping getTransactionDetailById() method
+2021-06-21 14:32:09,455 INFO com.cg.creditcardpayment.services.TransactionServices [http-nio-9090-exec-5] Called getTransactionDetailById() method of TransactionServices
+2021-06-21 14:32:09,515 INFO com.cg.creditcardpayment.exceptions.TransactionException [http-nio-9090-exec-5] Transaction with Transaction Id 0 Does not Exists
+2021-06-21 14:32:09,527 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-5] Resolved [Transaction with Transaction Id 0 Does not Exists]
+2021-06-21 14:33:05,751 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-7] Called GET mapping findById() method
+2021-06-21 14:33:05,806 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-7] CreditCard does not exist or it is null
+2021-06-21 14:33:05,810 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-7] Resolved [CreditCard does not exist or it is null]
+2021-06-21 14:33:08,835 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-8] Called GET mapping findAll() method
+2021-06-21 14:33:08,836 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-8] Called findAll() method of CreditCardService
+2021-06-21 14:33:11,192 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-9] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-21 14:33:11,192 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-9] Called findByCustomerId() method of CreditCardService
+2021-06-21 14:33:11,297 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-9] Customer does not exists
+2021-06-21 14:33:11,300 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-9] Resolved [Customer does not exists]
+2021-06-21 14:33:16,574 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-10] Called GET mapping getAllAccounts() method
+2021-06-21 14:33:16,576 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-10] Called getAllAccount() method of AccountServices
+2021-06-21 14:33:18,798 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-1] Called GET mapping getAccount() method
+2021-06-21 14:33:18,798 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-1] Called getAccount() method of AccountServices
+2021-06-21 14:33:18,801 INFO com.cg.creditcardpayment.exceptions.AccountNotFoundException [http-nio-9090-exec-1] Account not found
+2021-06-21 14:33:18,804 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-1] Resolved [Account not found]
+2021-06-21 14:33:22,566 INFO com.cg.creditcardpayment.controller.PaymentController [http-nio-9090-exec-2] Called GET mapping getAllPayments() method
+2021-06-21 14:33:22,566 INFO com.cg.creditcardpayment.services.PaymentServices [http-nio-9090-exec-2] Called findAllPayments() method of PayamentServices
+2021-06-21 14:33:25,546 INFO com.cg.creditcardpayment.controller.PaymentController [http-nio-9090-exec-3] Called GET mapping findById() method
+2021-06-21 14:33:25,546 INFO com.cg.creditcardpayment.services.PaymentServices [http-nio-9090-exec-3] Called findPaymentById() method of PayamentServices
+2021-06-21 14:33:25,551 INFO com.cg.creditcardpayment.exceptions.PaymentException [http-nio-9090-exec-3] Payment Id 0 Does not Exist
+2021-06-21 14:33:25,554 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-3] Resolved [Payment Id 0 Does not Exist]
+2021-06-21 14:33:38,361 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-8] Called GET mapping getAllStatements() method
+2021-06-21 14:33:38,361 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-8] Called getAlltatements() method of StatementService
+2021-06-21 14:33:43,416 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-9] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-06-21 14:33:50,673 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called GET mapping getAllCustomers() method
+2021-06-21 14:33:50,673 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getAllCustomer() method of CustomerService
+2021-06-21 14:33:53,742 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getCustomer() method
+2021-06-21 14:33:53,742 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getCustomer() method of CustomerService
+2021-06-21 14:33:53,746 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-1] Customer with ID: 0 Not Available!
+2021-06-21 14:33:53,747 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-1] Resolved [Customer with ID: 0 Not Available!]
+2021-06-21 14:34:02,539 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-2] Called GET mapping getCustomer() method
+2021-06-21 14:34:02,539 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-2] Called getCustomer() method of CustomerService
+2021-06-21 14:34:02,543 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-2] Customer with ID: rahul Not Available!
+2021-06-21 14:34:02,544 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-2] Resolved [Customer with ID: rahul Not Available!]
+2021-06-21 14:34:04,299 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-3] Called GET mapping getCustomer() method
+2021-06-21 14:34:04,299 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-3] Called getCustomer() method of CustomerService
+2021-06-21 14:36:38,491 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-6] Called GET mapping findAll() method
+2021-06-21 14:36:38,491 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-6] Called findAll() method of CreditCardService
+2021-06-21 14:36:38,759 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-7] Called POST mapping add() method
+2021-06-21 14:36:38,763 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-7] Called addCreditCard() method of CreditCardService
+2021-06-21 14:37:13,105 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-8] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-21 14:37:13,106 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-8] Called findByCustomerId() method of CreditCardService
+2021-06-21 14:37:13,109 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-8] Customer does not exists
+2021-06-21 14:37:13,111 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-8] Resolved [Customer does not exists]
+2021-06-21 14:37:19,409 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-9] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-21 14:37:19,409 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-9] Called findByCustomerId() method of CreditCardService
+2021-06-21 14:37:23,969 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-10] Called GET mapping findAll() method
+2021-06-21 14:37:23,969 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-10] Called findAll() method of CreditCardService
+2021-06-21 14:38:19,024 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-3] Called POST mapping addStatement() method
+2021-06-21 14:38:19,042 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-3] Called addStatement() method of StatementService
+2021-06-21 14:38:34,558 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-4] Called GET mapping getAllStatements() method
+2021-06-21 14:38:34,558 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-4] Called getAlltatements() method of StatementService
+2021-06-21 14:40:57,595 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-21 14:40:57,603 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 14:40:57,608 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-06-21 14:40:57,616 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-06-21 14:40:57,889 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] Starting CreditcardBillPaymentApplication using Java 15.0.2 on DESKTOP-TM0EUEB with PID 1400 (E:\Final sprint project\CreditcardBillPayment\bin\main started by HP in E:\Final sprint project\CreditcardBillPayment)
+2021-06-21 14:40:57,889 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-21 14:40:58,566 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-21 14:40:58,609 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42 ms. Found 8 JPA repository interfaces.
+2021-06-21 14:40:58,778 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9090 (http)
+2021-06-21 14:40:58,779 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-06-21 14:40:58,779 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-21 14:40:58,810 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-21 14:40:58,810 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 913 ms
+2021-06-21 14:40:58,890 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-21 14:40:58,896 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-06-21 14:40:59,051 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-06-21 14:40:59,051 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-21 14:41:00,690 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-21 14:41:00,690 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-21 14:41:00,712 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-21 14:41:01,287 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-21 14:41:01,486 INFO springfox.documentation.spring.web.WebMvcPropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-06-21 14:41:01,544 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-21 14:41:01,738 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9090 (http) with context path ''
+2021-06-21 14:41:01,738 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Documentation plugins bootstrapped
+2021-06-21 14:41:01,740 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-06-21 14:41:01,795 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-06-21 14:41:02,061 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: addUsingPOST_1
+2021-06-21 14:41:02,074 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findByIdUsingGET_1
+2021-06-21 14:41:02,088 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findAllUsingGET_1
+2021-06-21 14:41:02,249 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: updatePaymentUsingPUT_1
+2021-06-21 14:41:02,280 INFO com.cg.creditcardpayment.CreditcardBillPaymentApplication [restartedMain] Started CreditcardBillPaymentApplication in 4.475 seconds (JVM running for 1209.975)
+2021-06-21 14:41:02,285 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-06-21 14:41:04,107 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-21 14:41:04,108 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-06-21 14:41:04,111 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9090-exec-1] Completed initialization in 3 ms
+2021-06-21 14:41:04,140 INFO com.cg.creditcardpayment.controller.PaymentController [http-nio-9090-exec-2] Called POST mapping add() method
+2021-06-21 14:41:04,146 INFO com.cg.creditcardpayment.services.PaymentServices [http-nio-9090-exec-2] Called savePayment() method of PayamentServices
+2021-06-21 14:41:12,059 INFO com.cg.creditcardpayment.controller.PaymentController [http-nio-9090-exec-3] Called GET mapping getAllPayments() method
+2021-06-21 14:41:12,059 INFO com.cg.creditcardpayment.services.PaymentServices [http-nio-9090-exec-3] Called findAllPayments() method of PayamentServices
+2021-06-21 14:42:34,080 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-6] Called POST mapping addAccount() method
+2021-06-21 14:42:34,086 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-6] Called addAccount() method of AccountServices
+2021-06-21 14:42:46,333 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-7] Called GET mapping getAllAccounts() method
+2021-06-21 14:42:46,333 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-7] Called getAllAccount() method of AccountServices
+2021-06-21 14:44:35,475 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-9] Called GET mapping getAllAccounts() method
+2021-06-21 14:44:35,475 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-9] Called getAllAccount() method of AccountServices
+2021-06-21 14:45:21,545 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-10] Called GET mapping getAllAccounts() method
+2021-06-21 14:45:21,546 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-10] Called getAllAccount() method of AccountServices
+2021-06-21 14:45:27,904 INFO com.cg.creditcardpayment.controller.AccountController [http-nio-9090-exec-1] Called GET mapping getAllAccounts() method
+2021-06-21 14:45:27,904 INFO com.cg.creditcardpayment.services.AccountServices [http-nio-9090-exec-1] Called getAllAccount() method of AccountServices
+2021-06-21 14:46:11,497 INFO com.cg.creditcardpayment.controller.TransactionController [http-nio-9090-exec-3] Called POST mapping addTransaction() method
+2021-06-21 14:46:11,503 INFO com.cg.creditcardpayment.services.TransactionServices [http-nio-9090-exec-3] Called addTransaction() method of TransactionServices
+2021-06-21 14:46:11,596 INFO com.cg.creditcardpayment.controller.TransactionController [http-nio-9090-exec-4] Called GET mapping getAllTransactions() method
+2021-06-21 14:46:11,597 INFO com.cg.creditcardpayment.services.TransactionServices [http-nio-9090-exec-4] Called getAllTransactions() method of TransactionServices
+2021-06-21 14:46:25,534 INFO com.cg.creditcardpayment.controller.TransactionController [http-nio-9090-exec-7] Called GET mapping transactionHistory() method
+2021-06-21 14:46:25,534 INFO com.cg.creditcardpayment.services.TransactionServices [http-nio-9090-exec-7] Called transactionHistory() method of TransactionServices
+2021-06-21 14:51:51,670 INFO com.cg.creditcardpayment.controller.CreditCardController [http-nio-9090-exec-10] Called GET mapping getAllCreditCardsOfCustomer() method
+2021-06-21 14:51:51,670 INFO com.cg.creditcardpayment.services.CreditCardService [http-nio-9090-exec-10] Called findByCustomerId() method of CreditCardService
+2021-06-21 14:51:51,684 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-10] No Credit cards found
+2021-06-21 14:51:51,685 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-10] Resolved [No Credit cards found]
+2021-06-21 14:52:15,417 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-2] Called GET mapping getBilledStatement() method
+2021-06-21 14:52:15,417 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-2] Called getBilledStatement() method of StatementService
+2021-06-21 14:52:15,418 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-2] Card number cannot be null
+2021-06-21 14:52:15,420 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-2] Resolved [Card number cannot be null]
+2021-06-21 14:52:18,650 INFO com.cg.creditcardpayment.controller.StatementController [http-nio-9090-exec-4] Called GET mapping getUnbilledStatement() method
+2021-06-21 14:52:18,650 INFO com.cg.creditcardpayment.services.StatementService [http-nio-9090-exec-4] Called getUnbilledStatement() method of StatementService
+2021-06-21 14:52:18,650 INFO com.cg.creditcardpayment.exceptions.CreditCardException [http-nio-9090-exec-4] Card Number cannot be Null
+2021-06-21 14:52:18,652 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-4] Resolved [Card Number cannot be Null]
+2021-06-21 14:52:25,412 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-5] Called GET mapping getCustomer() method
+2021-06-21 14:52:25,412 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-5] Called getCustomer() method of CustomerService
+2021-06-21 16:36:30,148 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-9] Called GET mapping getAllCustomers() method
+2021-06-21 16:36:30,148 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-9] Called getAllCustomer() method of CustomerService
+2021-06-21 16:36:33,520 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-10] Called GET mapping getCustomer() method
+2021-06-21 16:36:33,521 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-10] Called getCustomer() method of CustomerService
+2021-06-21 16:36:33,523 INFO com.cg.creditcardpayment.exceptions.CustomerNotFoundException [http-nio-9090-exec-10] Customer with ID: 0 Not Available!
+2021-06-21 16:36:33,524 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-9090-exec-10] Resolved [Customer with ID: 0 Not Available!]
+2021-06-21 16:36:37,838 INFO com.cg.creditcardpayment.controller.CustomerController [http-nio-9090-exec-1] Called GET mapping getCustomer() method
+2021-06-21 16:36:37,838 INFO com.cg.creditcardpayment.services.CustomerService [http-nio-9090-exec-1] Called getCustomer() method of CustomerService
+2021-06-21 17:39:41,585 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m39s923ms739µs600ns).
